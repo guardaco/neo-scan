@@ -6,7 +6,7 @@ defmodule Neoscan.Addresses do
   @governing_token Application.fetch_env!(:neoscan, :governing_token)
   @utility_token Application.fetch_env!(:neoscan, :utility_token)
 
-  @page_size 15
+  @page_size 100
   @balance_history_size 500
 
   @day_seconds 86_400
