@@ -31,7 +31,7 @@ defmodule NeoscanWeb.Api do
           asset_hash: Base.encode16(asset_hash, case: :lower),
           asset_symbol: asset_symbol || name,
           asset: name,
-          amount: value
+          amount: value,
           precision: precision
         }
       end)
